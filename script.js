@@ -4,7 +4,7 @@ const containerVideos = document.querySelector(".videos__container");
 
 async function buscarEMostrarVideos() {
   try {
-    const busca = await axios.get("");
+    const busca = await axios.get("https://vid-flow-vite-one.vercel.app/");
     const videos = busca.data;
 
     videos.forEach((video) => {
