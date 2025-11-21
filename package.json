@@ -1,0 +1,23 @@
+{
+  "name": "meu-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "api-local": "json-server --watch backend/videos.json",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "json-server": "^0.17.4",
+    "prettier": "3.6.2",
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}
